@@ -12,5 +12,5 @@ $config['rajaongkir_uri_city'] = 'city';
 $config['rajaongkir_uri_cost'] = 'cost';
 */
 
-/* End of file sms.php */
-/* Location: ./application/config/rajasms.php */
+/* End of file rajaongkir.php */
+/* Location: ./application/config/rajaongkir.php */
