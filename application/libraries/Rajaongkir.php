@@ -39,7 +39,7 @@ class Rajaongkir {
     }
     
     private function _check_compatibility() {
-        if (!extension_loaded('curl') or !extension_loaded('json')) throw new Exception('There is missing dependant extensions - please ensure both cURL and JSON modules are installed');
+        if (!extension_loaded('curl') or !extension_loaded('json')) throw new Exception('There are missing dependant extensions - please ensure both cURL and JSON modules are installed');
     }
     
     private function _get_return($r,$return_type=Rajaongkir::RETURN_DEFAULT) {
