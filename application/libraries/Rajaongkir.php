@@ -57,6 +57,7 @@ class Rajaongkir {
         $c = curl_init();
         curl_setopt($c,CURLOPT_URL,$url);
         curl_setopt($c,CURLOPT_HEADER, 0);
+        curl_setopt($c,CURLOPT_SSL_VERIFYPEER, FALSE);
         curl_setopt($c,CURLOPT_RETURNTRANSFER, TRUE);
         curl_setopt($c,CURLOPT_TIMEOUT,$this->timeout);
         if ($postdata!==NULL) {
